@@ -21,5 +21,10 @@ public class fizzBuzzTest {
 		FizzBuzz fz = new FizzBuzz();
 		assertEquals(100, fz.getNumbers().length);
 	}
+    public void multipleOfThreeReturnFizz(){
+		FizzBuzz fz = new FizzBuzz();
+		
+        assertEquals("Fizz", fz.fizzbuzzkata(3));
+    }
 
 }
